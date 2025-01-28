@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "GestionDeCocina.WebApi.Controllers.IngredienteController",
+    "Method": "CreateIngrediente",
+    "RelativePath": "api/Ingrediente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GestionDeCocina.Application.Ingredientes.createIngrediente.CreateIngredienteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionDeCocina.WebApi.Controllers.PaqueteController",
+    "Method": "CreateIngrediente",
+    "RelativePath": "api/Paquete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GestionDeCocina.Application.Paquete.createPaquete.CreatePaqueteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionDeCocina.WebApi.Controllers.PaqueteController",
+    "Method": "GetItems",
+    "RelativePath": "api/Paquete",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionDeCocina.WebApi.Controllers.PaqueteAndRecetaController",
+    "Method": "CreateIngrediente",
+    "RelativePath": "api/PaqueteAndReceta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GestionDeCocina.Application.PaqueteAndReceta.createPaqueteAndReceta.CreatePaqueteAndRecetaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionDeCocina.WebApi.Controllers.RecetaController",
+    "Method": "CreateIngrediente",
+    "RelativePath": "api/Receta",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GestionDeCocina.Application.Receta.createReceta.CreateRecetaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestionDeCocina.WebApi.Controllers.RecetaAndIngredienteController",
+    "Method": "CreateIngrediente",
+    "RelativePath": "api/RecetaAndIngrediente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GestionDeCocina.Application.RecetaAndIngredientes.createRecetaAndIngredientes.CreateRecetaAndIngredientesCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

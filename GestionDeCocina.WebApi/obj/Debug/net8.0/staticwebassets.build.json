@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ip89fC93jSNA8At1i+ujsqOPX7rvNtIP9guIi2KZ4eQ=",
+  "Source": "GestionDeCocina.WebApi",
+  "BasePath": "_content/GestionDeCocina.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
